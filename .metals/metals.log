@@ -1,0 +1,1140 @@
+2023.07.16 13:19:05 INFO  Started: Metals version 0.11.12 in workspace '/home/jupiter/WORK/PROJECTS/sparkwordcount' for client VSCodium 1.79.2.
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/metals (H2 2.1)
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.012s)
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 16, 2023 1:19:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 16, 2023 1:19:06 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 16, 2023 1:19:06 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 16, 2023 1:19:06 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.036s)
+2023.07.16 13:19:06 INFO  time: initialize in 0.47s
+2023.07.16 13:19:07 WARN  Build server is not auto-connectable.
+2023.07.16 13:19:11 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals441749843810193300/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 13:19:11 WARN  no build target for: /home/jupiter/WORK/PROJECTS/sparkwordcount/project/metals.sbt
+2023.07.16 13:19:11 WARN  no build target for: /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/metals.sbt
+2023.07.16 13:19:11 INFO  skipping build import with status 'Started'
+2023.07.16 13:19:12 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 13:19:14 INFO  no build target found for /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.16 13:19:14 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 13:19:14 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 13:19:17 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 13:19:17 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 13:19:19 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 13:19:19 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 1:19:19 PM
+2023.07.16 13:19:20 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 13:19:20 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 13:19:22 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 1:19:22 PM
+2023.07.16 13:19:23 ERROR /home/jupiter/WORK/PROJECTS/sparkwordcount/build.sbt:14: warning: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+2023.07.16 13:19:23 ERROR fork in Test := true
+2023.07.16 13:19:23 ERROR      ^
+2023.07.16 13:19:23 ERROR /home/jupiter/WORK/PROJECTS/sparkwordcount/build.sbt:17: warning: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+2023.07.16 13:19:23 ERROR testOptions in Test += Tests.Argument(TestFrameworks.ScalaTest, "-oD")
+2023.07.16 13:19:23 ERROR             ^
+2023.07.16 13:19:24 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 13:19:24 INFO  [info] set current project to my-cool-project (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 13:19:30 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 13:19:30 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 13:19:30 INFO  [success] Total time: 7 s, completed Jul 16, 2023, 1:19:30 PM
+2023.07.16 13:19:31 INFO  time: ran 'sbt bloopInstall' in 20s
+2023.07.16 13:19:31 INFO  Attempting to connect to the build server...
+2023.07.16 13:19:31 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 13:19:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 13:19:36 INFO  Attempting to connect to the build server...
+2023.07.16 13:19:36 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 13:19:36 INFO  Attempting to connect to the build server...
+2023.07.16 13:19:36 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 13:19:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 13:19:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 13:19:36 INFO  time: Connected to build server in 5.34s
+2023.07.16 13:19:36 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 13:19:36 INFO  time: Imported build in 0.11s
+2023.07.16 13:19:40 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 13:19:42 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 13:19:42 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 13:19:42 INFO  time: indexed workspace in 6.2s
+Jul 16, 2023 1:23:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.07.16 13:23:27 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 13:23:34 INFO  time: compiled sparkwordcount in 7.37s
+2023.07.16 13:23:54 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 13:23:54 INFO  time: compiled sparkwordcount in 0.18s
+2023.07.16 13:24:00 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 13:24:00 INFO  time: compiled sparkwordcount in 0.13s
+2023.07.16 13:24:10 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 13:24:10 INFO  time: compiled sparkwordcount in 0.1s
+2023.07.16 13:24:13 INFO  time: code lens generation in 1.85s
+Jul 16, 2023 1:24:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 185
+2023.07.16 13:25:25 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 13:25:25 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 13:25:28 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 13:25:30 INFO  time: compiled sparkwordcount in 1.65s
+Jul 16, 2023 1:27:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.07.16 13:31:36 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:31:36 INFO  time: compiled sparkwordcount in 0.98s
+2023.07.16 13:34:31 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:34:31 INFO  time: compiled sparkwordcount in 0.14s
+2023.07.16 13:34:42 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:34:42 INFO  time: compiled sparkwordcount in 0.54s
+2023.07.16 13:35:01 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:35:01 INFO  time: compiled sparkwordcount in 0.35s
+2023.07.16 13:35:01 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:35:01 INFO  time: compiled sparkwordcount in 0.26s
+2023.07.16 13:35:05 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:35:05 INFO  time: compiled sparkwordcount in 0.25s
+2023.07.16 13:36:05 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:36:06 INFO  time: compiled sparkwordcount in 1.03s
+2023.07.16 13:38:11 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:38:11 INFO  time: compiled sparkwordcount in 0.78s
+2023.07.16 13:38:33 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:38:33 INFO  time: compiled sparkwordcount in 0.68s
+2023.07.16 13:39:02 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:39:02 INFO  time: compiled sparkwordcount in 0.9s
+2023.07.16 13:41:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:41:27 INFO  time: compiled sparkwordcount in 0.65s
+2023.07.16 13:42:06 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 13:42:06 INFO  time: compiled sparkwordcount in 0.68s
+2023.07.16 15:00:29 INFO  compiling sparkwordcount-test (3 scala sources)
+2023.07.16 15:00:29 INFO  time: compiled sparkwordcount-test in 0.25s
+Jul 16, 2023 3:00:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:112)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:113)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:531)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$6(DebugProvider.scala:819)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+Jul 16, 2023 3:01:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 16, 2023 3:01:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.07.16 15:02:01 INFO  compiling sparkwordcount-test (3 scala sources)
+2023.07.16 15:02:01 INFO  time: compiled sparkwordcount-test in 0.18s
+2023.07.16 15:02:36 INFO  compiling sparkwordcount-test (3 scala sources)
+2023.07.16 15:02:36 INFO  time: compiled sparkwordcount-test in 79ms
+2023.07.16 15:02:37 INFO  compiling sparkwordcount-test (3 scala sources)
+2023.07.16 15:02:37 INFO  time: compiled sparkwordcount-test in 0.13s
+2023.07.16 15:02:42 INFO  compiling sparkwordcount-test (3 scala sources)
+2023.07.16 15:02:42 INFO  time: compiled sparkwordcount-test in 85ms
+2023.07.16 15:02:45 INFO  compiling sparkwordcount-test (3 scala sources)
+2023.07.16 15:02:45 INFO  time: compiled sparkwordcount-test in 0.14s
+2023.07.16 15:02:49 INFO  compiling sparkwordcount-test (3 scala sources)
+2023.07.16 15:02:50 INFO  time: compiled sparkwordcount-test in 1.27s
+Jul 16, 2023 3:02:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:112)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:113)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:531)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$6(DebugProvider.scala:819)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+Jul 16, 2023 3:04:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:112)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:113)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:531)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$6(DebugProvider.scala:819)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.07.16 15:12:34 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 15:12:34 INFO  time: compiled sparkwordcount in 0.77s
+2023.07.16 15:13:38 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 15:13:38 INFO  time: compiled sparkwordcount in 0.65s
+2023.07.16 15:14:41 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 15:14:41 INFO  time: compiled sparkwordcount in 0.64s
+Jul 16, 2023 3:19:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.ClassNotFoundException: org.apache.streaming.wordcount
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:112)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:113)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:531)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$6(DebugProvider.scala:819)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.07.16 15:29:09 INFO  skipping build import with status 'Dismissed'
+2023.07.16 15:29:09 INFO  skipping build import with status 'Dismissed'
+2023.07.16 15:29:10 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals12542757695030629351/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 15:29:11 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 15:29:11 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 15:29:12 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 15:29:12 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 15:29:12 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 15:29:15 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 15:29:15 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 3:29:15 PM
+2023.07.16 15:29:17 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 15:29:17 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 15:29:19 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 3:29:19 PM
+2023.07.16 15:29:21 ERROR /home/jupiter/WORK/PROJECTS/sparkwordcount/build.sbt:14: warning: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+2023.07.16 15:29:21 ERROR fork in Test := true
+2023.07.16 15:29:21 ERROR      ^
+2023.07.16 15:29:21 ERROR /home/jupiter/WORK/PROJECTS/sparkwordcount/build.sbt:17: warning: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+2023.07.16 15:29:21 ERROR testOptions in Test += Tests.Argument(TestFrameworks.ScalaTest, "-oD")
+2023.07.16 15:29:21 ERROR             ^
+2023.07.16 15:29:21 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 15:29:21 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 15:29:26 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 15:29:26 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 15:29:26 INFO  [success] Total time: 4 s, completed Jul 16, 2023, 3:29:26 PM
+2023.07.16 15:29:26 INFO  time: ran 'sbt bloopInstall' in 16s
+2023.07.16 15:29:26 INFO  Disconnecting from Bloop session...
+2023.07.16 15:29:26 INFO  Shut down connection with build server.
+2023.07.16 15:29:26 INFO  Shut down connection with build server.
+2023.07.16 15:29:26 INFO  Shut down connection with build server.
+2023.07.16 15:29:26 INFO  Attempting to connect to the build server...
+2023.07.16 15:29:26 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:29:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:29:26 INFO  Attempting to connect to the build server...
+2023.07.16 15:29:26 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:29:26 INFO  Attempting to connect to the build server...
+2023.07.16 15:29:26 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:29:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:29:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:29:26 INFO  time: Connected to build server in 0.16s
+2023.07.16 15:29:26 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 15:29:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:29:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:29:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:29:28 INFO  time: indexed workspace in 2.04s
+2023.07.16 15:31:31 INFO  compiling sparkwordcount-test (1 scala source)
+2023.07.16 15:31:31 INFO  time: compiled sparkwordcount-test in 0.2s
+2023.07.16 15:49:50 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8265265758273654910/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 15:49:51 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 15:49:51 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 15:49:52 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 15:49:52 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 15:49:52 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 15:49:55 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 15:49:55 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 3:49:55 PM
+2023.07.16 15:49:55 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 15:49:55 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 15:49:56 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 3:49:56 PM
+2023.07.16 15:49:58 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 15:49:58 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 15:50:04 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 15:50:04 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 15:50:04 INFO  [success] Total time: 5 s, completed Jul 16, 2023, 3:50:04 PM
+2023.07.16 15:50:04 INFO  time: ran 'sbt bloopInstall' in 14s
+2023.07.16 15:50:04 INFO  Disconnecting from Bloop session...
+2023.07.16 15:50:04 INFO  Shut down connection with build server.
+2023.07.16 15:50:04 INFO  Shut down connection with build server.
+2023.07.16 15:50:04 INFO  Shut down connection with build server.
+2023.07.16 15:50:04 INFO  Attempting to connect to the build server...
+2023.07.16 15:50:04 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:50:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:50:04 INFO  Attempting to connect to the build server...
+2023.07.16 15:50:04 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:50:04 INFO  Attempting to connect to the build server...
+2023.07.16 15:50:04 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:50:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:50:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:50:05 INFO  time: Connected to build server in 0.13s
+2023.07.16 15:50:05 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 15:50:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:50:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:50:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:50:06 INFO  time: indexed workspace in 1.83s
+2023.07.16 15:50:07 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 15:50:08 INFO  time: compiled sparkwordcount in 1.29s
+2023.07.16 15:50:08 INFO  skipping build import with status 'Installed'
+2023.07.16 15:50:09 INFO  time: code lens generation in 1.92s
+2023.07.16 15:52:17 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals17006078027800525962/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 15:52:18 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 15:52:18 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 15:52:19 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 15:52:19 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 15:52:19 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 15:52:22 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 15:52:22 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 3:52:22 PM
+2023.07.16 15:52:22 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 15:52:22 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 15:52:23 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 3:52:23 PM
+2023.07.16 15:52:25 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 15:52:25 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 15:52:30 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 15:52:30 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 15:52:30 INFO  [success] Total time: 5 s, completed Jul 16, 2023, 3:52:30 PM
+2023.07.16 15:52:31 INFO  time: ran 'sbt bloopInstall' in 14s
+2023.07.16 15:52:31 INFO  Disconnecting from Bloop session...
+2023.07.16 15:52:31 INFO  Shut down connection with build server.
+2023.07.16 15:52:31 INFO  Shut down connection with build server.
+2023.07.16 15:52:31 INFO  Shut down connection with build server.
+2023.07.16 15:52:31 INFO  Attempting to connect to the build server...
+2023.07.16 15:52:31 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:52:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:52:31 INFO  Attempting to connect to the build server...
+2023.07.16 15:52:31 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:52:31 INFO  Attempting to connect to the build server...
+2023.07.16 15:52:31 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 15:52:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:52:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 15:52:31 INFO  time: Connected to build server in 0.14s
+2023.07.16 15:52:31 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 15:52:33 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:52:33 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:52:33 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 15:52:33 INFO  time: indexed workspace in 1.85s
+2023.07.16 15:52:33 INFO  Shutting down server
+2023.07.16 15:52:33 INFO  shutting down Metals
+2023.07.16 15:52:33 INFO  Shut down connection with build server.
+2023.07.16 15:52:33 INFO  Shut down connection with build server.
+2023.07.16 15:52:34 INFO  Shut down connection with build server.
+java.lang.UnsupportedOperationException
+	at org.eclipse.lsp4j.services.LanguageClient.refreshCodeLenses(LanguageClient.java:208)
+	at scala.meta.internal.metals.clients.language.ConfiguredLanguageClient.refreshModel(ConfiguredLanguageClient.scala:89)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$25(Indexer.scala:383)
+	at scala.util.Success.foreach(Try.scala:260)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:481)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Jul 16, 2023 3:52:34 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/metals (H2 2.1)
+Jul 16, 2023 3:52:34 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.005s)
+Jul 16, 2023 3:52:34 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 16, 2023 3:52:34 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.16 15:52:34 INFO  skipping build import with status 'Installed'
+2023.07.16 15:52:36 WARN  sql closed: select build_target_uri from dependency_source where text_document_uri = ?;
+2023.07.16 15:52:36 WARN  sql closed: select worksheet_uri from worksheet_dependency_source where text_document_uri = ?;
+2023.07.16 16:00:33 INFO  Started: Metals version 0.11.12 in workspace '/home/jupiter/WORK/PROJECTS/sparkwordcount' for client VSCodium 1.79.2.
+Jul 16, 2023 4:00:33 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 16, 2023 4:00:33 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 16, 2023 4:00:33 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 16, 2023 4:00:33 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/metals (H2 2.1)
+Jul 16, 2023 4:00:33 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.027s)
+Jul 16, 2023 4:00:33 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 16, 2023 4:00:33 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.16 16:00:34 INFO  time: initialize in 0.71s
+2023.07.16 16:00:35 INFO  Attempting to connect to the build server...
+2023.07.16 16:00:35 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:00:35 INFO  skipping build import with status 'Installed'
+2023.07.16 16:00:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:00:35 INFO  Attempting to connect to the build server...
+2023.07.16 16:00:35 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:00:35 INFO  Attempting to connect to the build server...
+2023.07.16 16:00:35 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:00:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:00:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:00:35 INFO  time: Connected to build server in 0.25s
+2023.07.16 16:00:35 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 16:00:38 INFO  no build target found for /home/jupiter/WORK/PROJECTS/sparkwordcount/src/main/scala/word-count/App.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.16 16:00:38 INFO  time: code lens generation in 2.67s
+2023.07.16 16:00:40 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:00:40 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:00:40 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:00:40 INFO  time: indexed workspace in 2.94s
+2023.07.16 16:05:47 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 16:05:47 INFO  time: compiled sparkwordcount in 0.6s
+2023.07.16 16:06:57 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 16:06:57 INFO  time: compiled sparkwordcount in 0.58s
+2023.07.16 16:51:14 INFO  time: code lens generation in 2.02s
+2023.07.16 16:51:32 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals17811509210788882785/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 16:51:33 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 16:51:33 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 16:51:35 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 16:51:35 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 16:51:36 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 16:51:37 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 16:51:37 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 4:51:37 PM
+2023.07.16 16:51:37 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 16:51:37 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 16:51:38 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 4:51:38 PM
+2023.07.16 16:51:40 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 16:51:40 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 16:51:45 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 16:51:45 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 16:51:45 INFO  [success] Total time: 5 s, completed Jul 16, 2023, 4:51:46 PM
+2023.07.16 16:51:46 INFO  time: ran 'sbt bloopInstall' in 13s
+2023.07.16 16:51:46 INFO  Disconnecting from Bloop session...
+2023.07.16 16:51:46 INFO  Shut down connection with build server.
+2023.07.16 16:51:46 INFO  Shut down connection with build server.
+2023.07.16 16:51:46 INFO  Shut down connection with build server.
+2023.07.16 16:51:46 INFO  Attempting to connect to the build server...
+2023.07.16 16:51:46 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:51:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:51:46 INFO  Attempting to connect to the build server...
+2023.07.16 16:51:46 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:51:46 INFO  Attempting to connect to the build server...
+2023.07.16 16:51:46 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:51:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:51:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:51:46 INFO  time: Connected to build server in 0.13s
+2023.07.16 16:51:46 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 16:51:48 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:51:48 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:51:48 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:51:48 INFO  time: indexed workspace in 2.28s
+2023.07.16 16:51:50 INFO  time: code lens generation in 1.74s
+2023.07.16 16:52:51 INFO  skipping build import with status 'Installed'
+2023.07.16 16:53:01 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 16:53:01 INFO  time: compiled sparkwordcount in 0.71s
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023.07.16 16:53:43 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals16488905442061479304/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 16:53:44 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 16:53:44 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 16:53:45 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 16:53:45 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 16:53:47 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 16:53:48 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 16:53:48 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 4:53:49 PM
+2023.07.16 16:53:48 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 16:53:48 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 16:53:50 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 4:53:50 PM
+2023.07.16 16:53:52 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 16:53:52 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 16:53:57 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 16:53:57 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 16:53:57 INFO  [success] Total time: 5 s, completed Jul 16, 2023, 4:53:57 PM
+2023.07.16 16:53:58 INFO  time: ran 'sbt bloopInstall' in 14s
+2023.07.16 16:53:58 INFO  Disconnecting from Bloop session...
+2023.07.16 16:53:58 INFO  Shut down connection with build server.
+2023.07.16 16:53:58 INFO  Shut down connection with build server.
+2023.07.16 16:53:58 INFO  Shut down connection with build server.
+2023.07.16 16:53:58 INFO  Attempting to connect to the build server...
+2023.07.16 16:53:58 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:53:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:53:58 INFO  Attempting to connect to the build server...
+2023.07.16 16:53:58 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:53:58 INFO  Attempting to connect to the build server...
+2023.07.16 16:53:58 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 16:53:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:53:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 16:53:58 INFO  time: Connected to build server in 0.14s
+2023.07.16 16:53:58 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 16:54:00 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:54:00 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:54:00 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 16:54:00 INFO  time: indexed workspace in 1.77s
+2023.07.16 16:54:02 INFO  time: code lens generation in 1.82s
+2023.07.16 18:24:46 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:24:46 INFO  time: compiled sparkwordcount in 0.65s
+2023.07.16 18:30:52 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:30:52 INFO  time: compiled sparkwordcount in 0.62s
+2023.07.16 18:40:22 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:40:22 INFO  time: compiled sparkwordcount in 0.68s
+2023.07.16 18:42:44 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:42:44 INFO  time: compiled sparkwordcount in 0.86s
+2023.07.16 18:47:57 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:47:57 INFO  time: compiled sparkwordcount in 0.57s
+2023.07.16 18:48:44 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:48:44 INFO  time: compiled sparkwordcount in 0.13s
+2023.07.16 18:48:44 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:48:44 INFO  time: compiled sparkwordcount in 69ms
+2023.07.16 18:48:44 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:48:44 INFO  time: compiled sparkwordcount in 72ms
+2023.07.16 18:48:45 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:48:45 INFO  time: compiled sparkwordcount in 66ms
+2023.07.16 18:48:53 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:48:53 INFO  time: compiled sparkwordcount in 0.54s
+2023.07.16 18:49:19 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:49:19 INFO  time: compiled sparkwordcount in 0.11s
+2023.07.16 18:49:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:49:27 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 18:50:13 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:50:13 INFO  time: compiled sparkwordcount in 0.57s
+2023.07.16 18:50:39 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:50:39 INFO  time: compiled sparkwordcount in 0.5s
+2023.07.16 18:50:56 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:50:56 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 18:50:56 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:50:56 INFO  time: compiled sparkwordcount in 0.1s
+2023.07.16 18:50:56 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:50:56 INFO  time: compiled sparkwordcount in 0.13s
+2023.07.16 18:51:04 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:51:04 INFO  time: compiled sparkwordcount in 0.47s
+2023.07.16 18:52:48 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:52:48 INFO  time: compiled sparkwordcount in 0.53s
+2023.07.16 18:54:42 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:54:42 INFO  time: compiled sparkwordcount in 0.48s
+2023.07.16 18:54:59 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:54:59 INFO  time: compiled sparkwordcount in 0.45s
+2023.07.16 18:56:10 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:56:10 INFO  time: compiled sparkwordcount in 0.45s
+2023.07.16 18:59:29 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 18:59:29 INFO  time: compiled sparkwordcount in 0.46s
+2023.07.16 19:03:17 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4272606414199822405/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 19:03:18 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 19:03:18 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 19:03:19 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 19:03:19 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 19:03:19 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 19:03:22 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 19:03:22 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 7:03:22 PM
+2023.07.16 19:03:22 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 19:03:22 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 19:03:23 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 7:03:23 PM
+2023.07.16 19:03:25 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 19:03:25 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 19:03:30 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 19:03:30 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 19:03:30 INFO  [success] Total time: 5 s, completed Jul 16, 2023, 7:03:30 PM
+2023.07.16 19:03:30 INFO  time: ran 'sbt bloopInstall' in 12s
+2023.07.16 19:03:30 INFO  Disconnecting from Bloop session...
+2023.07.16 19:03:30 INFO  Shut down connection with build server.
+2023.07.16 19:03:30 INFO  Shut down connection with build server.
+2023.07.16 19:03:30 INFO  Shut down connection with build server.
+2023.07.16 19:03:30 INFO  Attempting to connect to the build server...
+2023.07.16 19:03:30 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:03:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:03:30 INFO  Attempting to connect to the build server...
+2023.07.16 19:03:30 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:03:30 INFO  Attempting to connect to the build server...
+2023.07.16 19:03:30 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:03:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:03:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:03:30 INFO  time: Connected to build server in 58ms
+2023.07.16 19:03:30 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 19:03:32 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:03:32 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:03:32 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:03:32 INFO  time: indexed workspace in 2.21s
+2023.07.16 19:03:32 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 19:03:35 INFO  time: code lens generation in 2.06s
+2023.07.16 19:03:37 INFO  time: compiled sparkwordcount in 4.43s
+2023.07.16 19:03:37 INFO  skipping build import with status 'Installed'
+2023.07.16 19:04:13 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:04:13 INFO  time: compiled sparkwordcount in 0.77s
+2023.07.16 19:06:23 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals190143487833192842/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 19:06:24 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 19:06:24 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 19:06:25 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 19:06:25 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 19:06:25 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 19:06:28 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 19:06:28 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 7:06:28 PM
+2023.07.16 19:06:28 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 19:06:28 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 19:06:29 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 7:06:29 PM
+2023.07.16 19:06:31 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 19:06:31 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 19:07:07 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 19:07:07 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 19:07:07 INFO  [success] Total time: 36 s, completed Jul 16, 2023, 7:07:07 PM
+2023.07.16 19:07:08 INFO  time: ran 'sbt bloopInstall' in 44s
+2023.07.16 19:07:08 INFO  Disconnecting from Bloop session...
+2023.07.16 19:07:08 INFO  Shut down connection with build server.
+2023.07.16 19:07:08 INFO  Shut down connection with build server.
+2023.07.16 19:07:08 INFO  Shut down connection with build server.
+2023.07.16 19:07:08 INFO  Attempting to connect to the build server...
+2023.07.16 19:07:08 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:07:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:07:08 INFO  Attempting to connect to the build server...
+2023.07.16 19:07:08 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:07:08 INFO  Attempting to connect to the build server...
+2023.07.16 19:07:08 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:07:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:07:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:07:08 INFO  time: Connected to build server in 0.14s
+2023.07.16 19:07:08 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 19:07:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:07:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:07:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:07:10 INFO  time: indexed workspace in 2.83s
+2023.07.16 19:07:11 INFO  compiling sparkwordcount (3 scala sources)
+Jul 16, 2023 7:07:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1689523632588,
+    "message": "Compiled \u0027sparkwordcount\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/home/jupiter/WORK/PROJECTS/sparkwordcount/?id\u003dsparkwordcount"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": false,
+      "isLastCycle": true,
+      "clientDir": "file:///home/jupiter/WORK/PROJECTS/sparkwordcount/.bloop/sparkwordcount/bloop-bsp-clients-classes/classes-Metals-YFcgV9c4Soyh86UDyoeEqw\u003d\u003d/",
+      "analysisOut": "file:///home/jupiter/WORK/PROJECTS/sparkwordcount/.bloop/sparkwordcount/sparkwordcount-analysis.bin"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:116)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException: Cannot invoke "scala.meta.pc.PresentationCompiler.restart()" because "compiler" is null
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:257)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:255)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:255)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:254)
+	at scala.collection.mutable.HashSet$Node.foreach(HashSet.scala:435)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:361)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:254)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$buildClient$1(MetalsLspService.scala:417)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$buildClient$1$adapted(MetalsLspService.scala:415)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:165)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:162)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:161)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:161)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2023.07.16 19:07:13 INFO  time: code lens generation in 1.92s
+2023.07.16 19:08:01 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8976793836032201864/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 19:08:02 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 19:08:02 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 19:08:03 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 19:08:03 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 19:08:04 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 19:08:06 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 19:08:06 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 7:08:06 PM
+2023.07.16 19:08:06 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 19:08:06 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 19:08:07 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 7:08:07 PM
+2023.07.16 19:08:07 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 19:08:07 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 19:08:09 INFO  [warn] 
+2023.07.16 19:08:09 INFO  [warn] 	Note: Unresolved dependencies path:
+2023.07.16 19:08:09 INFO  [error] Couldn't run bloopGenerate for sparkwordcount. Cause:
+2023.07.16 19:08:09 INFO  [error] Couldn't run bloopGenerate for sparkwordcount-test. Cause:
+2023.07.16 19:08:09 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/jupiter/WORK/PROJECTS/sparkwordcount/,sparkwordcount)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest_2.13:3.0.1
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   Not found
+2023.07.16 19:08:09 INFO  [error]   not found: /home/jupiter/.ivy2/localorg.scalatest/scalatest_2.13/3.0.1/ivys/ivy.xml
+2023.07.16 19:08:09 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.1/scalatest_2.13-3.0.1.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2023.07.16 19:08:09 INFO  [warn] Removed stale /home/jupiter/WORK/PROJECTS/sparkwordcount/.bloop/sparkwordcount.json
+2023.07.16 19:08:09 INFO  [warn] Removed stale /home/jupiter/WORK/PROJECTS/sparkwordcount/.bloop/sparkwordcount-test.json
+2023.07.16 19:08:09 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 7:08:09 PM
+2023.07.16 19:08:09 INFO  time: ran 'sbt bloopInstall' in 8.16s
+2023.07.16 19:08:09 INFO  Disconnecting from Bloop session...
+2023.07.16 19:08:09 INFO  Shut down connection with build server.
+2023.07.16 19:08:09 INFO  Shut down connection with build server.
+2023.07.16 19:08:09 INFO  Shut down connection with build server.
+2023.07.16 19:08:09 INFO  Attempting to connect to the build server...
+2023.07.16 19:08:09 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:08:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:08:09 INFO  Attempting to connect to the build server...
+2023.07.16 19:08:09 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:08:09 INFO  Attempting to connect to the build server...
+2023.07.16 19:08:09 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:08:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:08:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:08:10 INFO  time: Connected to build server in 0.12s
+2023.07.16 19:08:10 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 19:08:10 ERROR Empty build targets. Expected at least one build target identifier.
+2023.07.16 19:08:10 ERROR Empty build targets. Expected at least one build target identifier.
+2023.07.16 19:08:10 ERROR Empty build targets. Expected at least one build target identifier.
+2023.07.16 19:08:10 ERROR Empty build targets. Expected at least one build target identifier.
+2023.07.16 19:08:11 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:08:11 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:08:11 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:08:11 INFO  time: indexed workspace in 1.19s
+2023.07.16 19:08:11 WARN  no build target for: /home/jupiter/WORK/PROJECTS/sparkwordcount/src/main/scala/word-count/App.scala
+2023.07.16 19:08:12 INFO  skipping build import with status 'Installed'
+2023.07.16 19:08:12 INFO  time: code lens generation in 1.2s
+2023.07.16 19:09:09 INFO  running '/usr/lib/jvm/java-20-openjdk/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals18399674851313871989/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.16 19:09:10 INFO  [info] welcome to sbt 1.9.0 (N/A Java 20.0.1)
+2023.07.16 19:09:10 INFO  [info] loading settings for project sparkwordcount-build-build-build from metals.sbt ...
+2023.07.16 19:09:11 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/project
+2023.07.16 19:09:11 INFO  [info] loading settings for project sparkwordcount-build-build from metals.sbt ...
+2023.07.16 19:09:11 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project
+2023.07.16 19:09:14 INFO  [success] Generated .bloop/sparkwordcount-build-build.json
+2023.07.16 19:09:14 INFO  [success] Total time: 2 s, completed Jul 16, 2023, 7:09:14 PM
+2023.07.16 19:09:14 INFO  [info] loading settings for project sparkwordcount-build from metals.sbt,plugins.sbt ...
+2023.07.16 19:09:14 INFO  [info] loading project definition from /home/jupiter/WORK/PROJECTS/sparkwordcount/project
+2023.07.16 19:09:15 INFO  [success] Total time: 1 s, completed Jul 16, 2023, 7:09:15 PM
+2023.07.16 19:09:17 INFO  [info] loading settings for project sparkwordcount from build.sbt ...
+2023.07.16 19:09:17 INFO  [info] set current project to sparkwordcount (in build file:/home/jupiter/WORK/PROJECTS/sparkwordcount/)
+2023.07.16 19:09:33 INFO  [success] Generated .bloop/sparkwordcount.json
+2023.07.16 19:09:33 INFO  [success] Generated .bloop/sparkwordcount-test.json
+2023.07.16 19:09:33 INFO  [success] Total time: 16 s, completed Jul 16, 2023, 7:09:33 PM
+2023.07.16 19:09:34 INFO  time: ran 'sbt bloopInstall' in 24s
+2023.07.16 19:09:34 INFO  Disconnecting from Bloop session...
+2023.07.16 19:09:34 INFO  Shut down connection with build server.
+2023.07.16 19:09:34 INFO  Shut down connection with build server.
+2023.07.16 19:09:34 INFO  Shut down connection with build server.
+2023.07.16 19:09:34 INFO  Attempting to connect to the build server...
+2023.07.16 19:09:34 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:09:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:09:37 INFO  Attempting to connect to the build server...
+2023.07.16 19:09:37 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:09:37 INFO  Attempting to connect to the build server...
+2023.07.16 19:09:37 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.16 19:09:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:09:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jupiter/WORK/PROJECTS/sparkwordcount/project/.metals/bsp.trace.json or /home/jupiter/.cache/metals/bsp.trace.json
+2023.07.16 19:09:37 INFO  time: Connected to build server in 3.11s
+2023.07.16 19:09:37 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.16 19:09:41 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:09:43 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:09:43 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
+2023.07.16 19:09:43 INFO  time: indexed workspace in 6.08s
+2023.07.16 19:09:43 INFO  compiling sparkwordcount (3 scala sources)
+2023.07.16 19:09:49 INFO  time: code lens generation in 5.17s
+2023.07.16 19:10:00 INFO  time: compiled sparkwordcount in 16s
+2023.07.16 19:12:18 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:12:18 INFO  time: compiled sparkwordcount in 0.84s
+2023.07.16 19:13:04 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:13:04 INFO  time: compiled sparkwordcount in 0.73s
+2023.07.16 19:13:37 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:13:37 INFO  time: compiled sparkwordcount in 0.72s
+2023.07.16 19:19:07 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:19:07 INFO  time: compiled sparkwordcount in 0.22s
+2023.07.16 19:19:07 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:19:07 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 19:19:07 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:19:07 INFO  time: compiled sparkwordcount in 0.14s
+2023.07.16 19:22:00 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:22:00 INFO  time: compiled sparkwordcount in 0.59s
+2023.07.16 19:24:24 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:24:24 INFO  time: compiled sparkwordcount in 0.15s
+2023.07.16 19:24:24 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:24:24 INFO  time: compiled sparkwordcount in 0.11s
+2023.07.16 19:24:24 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:24:24 INFO  time: compiled sparkwordcount in 92ms
+2023.07.16 19:24:24 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:24:24 INFO  time: compiled sparkwordcount in 86ms
+2023.07.16 19:24:24 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:24:25 INFO  time: compiled sparkwordcount in 0.27s
+2023.07.16 19:29:43 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:29:43 INFO  time: compiled sparkwordcount in 0.14s
+2023.07.16 19:30:21 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:30:21 INFO  time: compiled sparkwordcount in 0.15s
+2023.07.16 19:30:34 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:30:34 INFO  time: compiled sparkwordcount in 0.14s
+2023.07.16 19:30:37 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:30:37 INFO  time: compiled sparkwordcount in 0.14s
+2023.07.16 19:31:00 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:31:00 INFO  time: compiled sparkwordcount in 0.14s
+2023.07.16 19:35:19 WARN  Using indexes to guess the definition of Paths
+Jul 16, 2023 7:35:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: jar%3Afile%3A%2F%2F%2Fhome%2Fjupiter%2F.cache%2Fcoursier%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-sbt%2Fmain_2.12%2F1.9.0%2Fmain_2.12-1.9.0-sources.jar%21%2Fsbt%2Finternal%2FPluginDiscovery.scala:15: error: ; expected but package found
+package internal
+^
+jar%3Afile%3A%2F%2F%2Fhome%2Fjupiter%2F.cache%2Fcoursier%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-sbt%2Fmain_2.12%2F1.9.0%2Fmain_2.12-1.9.0-sources.jar%21%2Fsbt%2Finternal%2FPluginDiscovery.scala:15: error: ; expected but package found
+package internal
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:391)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:407)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:411)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4524)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4524)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4477)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Jul 16, 2023 7:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1850
+2023.07.16 19:36:37 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:36:37 INFO  time: compiled sparkwordcount in 0.13s
+2023.07.16 19:37:01 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:37:01 INFO  time: compiled sparkwordcount in 0.16s
+2023.07.16 19:37:01 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:37:01 INFO  time: compiled sparkwordcount in 97ms
+2023.07.16 19:37:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:37:27 INFO  time: compiled sparkwordcount in 0.16s
+2023.07.16 19:37:39 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:37:39 INFO  time: compiled sparkwordcount in 0.65s
+2023.07.16 19:39:55 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:39:55 INFO  time: compiled sparkwordcount in 0.13s
+2023.07.16 19:40:07 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:40:07 INFO  time: compiled sparkwordcount in 0.57s
+2023.07.16 19:42:53 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:42:53 INFO  time: compiled sparkwordcount in 0.13s
+2023.07.16 19:42:53 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:42:53 INFO  time: compiled sparkwordcount in 78ms
+2023.07.16 19:42:53 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:42:53 INFO  time: compiled sparkwordcount in 0.1s
+2023.07.16 19:42:53 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:42:54 INFO  time: compiled sparkwordcount in 65ms
+2023.07.16 19:43:00 WARN  Using indexes to guess the definition of File
+2023.07.16 19:43:11 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:43:11 INFO  time: compiled sparkwordcount in 0.63s
+2023.07.16 19:43:53 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:43:53 INFO  time: compiled sparkwordcount in 0.59s
+2023.07.16 19:43:57 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:43:57 INFO  time: compiled sparkwordcount in 0.59s
+2023.07.16 19:45:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:45:27 INFO  time: compiled sparkwordcount in 0.55s
+2023.07.16 19:45:38 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:45:38 INFO  time: compiled sparkwordcount in 0.53s
+2023.07.16 19:47:29 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:47:29 INFO  time: compiled sparkwordcount in 0.15s
+2023.07.16 19:47:29 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:47:29 INFO  time: compiled sparkwordcount in 95ms
+2023.07.16 19:47:29 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:47:29 INFO  time: compiled sparkwordcount in 83ms
+2023.07.16 19:47:31 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:47:31 INFO  time: compiled sparkwordcount in 77ms
+2023.07.16 19:48:09 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:48:09 INFO  time: compiled sparkwordcount in 0.56s
+2023.07.16 19:48:24 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:48:24 INFO  time: compiled sparkwordcount in 0.58s
+2023.07.16 19:54:42 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:54:42 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 19:55:09 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:09 INFO  time: compiled sparkwordcount in 0.16s
+2023.07.16 19:55:28 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:28 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 19:55:28 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:28 INFO  time: compiled sparkwordcount in 87ms
+2023.07.16 19:55:28 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:28 INFO  time: compiled sparkwordcount in 71ms
+2023.07.16 19:55:29 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:29 INFO  time: compiled sparkwordcount in 85ms
+2023.07.16 19:55:29 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:29 INFO  time: compiled sparkwordcount in 93ms
+2023.07.16 19:55:29 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:29 INFO  time: compiled sparkwordcount in 63ms
+2023.07.16 19:55:35 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:35 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 19:55:35 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:35 INFO  time: compiled sparkwordcount in 80ms
+2023.07.16 19:55:35 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:35 INFO  time: compiled sparkwordcount in 76ms
+2023.07.16 19:55:35 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:35 INFO  time: compiled sparkwordcount in 79ms
+2023.07.16 19:55:35 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:36 INFO  time: compiled sparkwordcount in 71ms
+2023.07.16 19:55:36 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:36 INFO  time: compiled sparkwordcount in 70ms
+2023.07.16 19:55:36 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:36 INFO  time: compiled sparkwordcount in 90ms
+2023.07.16 19:55:36 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:36 INFO  time: compiled sparkwordcount in 59ms
+2023.07.16 19:55:36 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:36 INFO  time: compiled sparkwordcount in 75ms
+2023.07.16 19:55:36 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:36 INFO  time: compiled sparkwordcount in 74ms
+2023.07.16 19:55:37 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:37 INFO  time: compiled sparkwordcount in 66ms
+2023.07.16 19:55:37 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:37 INFO  time: compiled sparkwordcount in 60ms
+2023.07.16 19:55:37 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:55:37 INFO  time: compiled sparkwordcount in 90ms
+2023.07.16 19:56:21 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:56:21 INFO  time: compiled sparkwordcount in 0.66s
+2023.07.16 19:56:42 WARN  Using indexes to guess the definition of File
+2023.07.16 19:56:50 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:56:50 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 19:56:50 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:56:50 INFO  time: compiled sparkwordcount in 68ms
+2023.07.16 19:56:50 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:56:50 INFO  time: compiled sparkwordcount in 74ms
+2023.07.16 19:56:50 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:56:50 INFO  time: compiled sparkwordcount in 77ms
+2023.07.16 19:56:56 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:56:56 INFO  time: compiled sparkwordcount in 0.56s
+2023.07.16 19:59:18 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 19:59:18 INFO  time: compiled sparkwordcount in 0.6s
+2023.07.16 20:02:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:02:27 INFO  time: compiled sparkwordcount in 0.18s
+2023.07.16 20:02:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:02:27 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 20:02:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:02:27 INFO  time: compiled sparkwordcount in 0.11s
+2023.07.16 20:02:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:02:27 INFO  time: compiled sparkwordcount in 0.1s
+2023.07.16 20:04:33 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:04:33 INFO  time: compiled sparkwordcount in 0.15s
+2023.07.16 20:05:01 INFO  file:///home/jupiter/WORK/PROJECTS/sparkwordcount/src/main/scala/word-count/App.scala:59:5: stale bloop error: org.apache.spark.sql.DataFrameWriter[org.apache.spark.sql.Row] does not take parameters
+    df.write().write.mode("append").csv("/tmp/wordcount/")
+    ^^^^^^^^^^
+2023.07.16 20:05:01 INFO  file:///home/jupiter/WORK/PROJECTS/sparkwordcount/src/main/scala/word-count/App.scala:59:5: stale bloop error: org.apache.spark.sql.DataFrameWriter[org.apache.spark.sql.Row] does not take parameters
+    df.write().write.mode("append").csv("/tmp/wordcount/")
+    ^^^^^^^^^^
+2023.07.16 20:05:13 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:05:13 INFO  time: compiled sparkwordcount in 0.69s
+2023.07.16 20:07:13 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:07:13 INFO  time: compiled sparkwordcount in 0.68s
+2023.07.16 20:07:22 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:07:22 INFO  time: compiled sparkwordcount in 0.71s
+2023.07.16 20:09:21 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:09:21 INFO  time: compiled sparkwordcount in 0.69s
+2023.07.16 20:09:46 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:09:46 INFO  time: compiled sparkwordcount in 0.66s
+2023.07.16 20:10:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:10:27 INFO  time: compiled sparkwordcount in 0.12s
+2023.07.16 20:10:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:10:27 INFO  time: compiled sparkwordcount in 72ms
+2023.07.16 20:10:27 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:10:27 INFO  time: compiled sparkwordcount in 75ms
+2023.07.16 20:10:28 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:10:28 INFO  time: compiled sparkwordcount in 0.1s
+2023.07.16 20:10:42 INFO  compiling sparkwordcount (1 scala source)
+2023.07.16 20:10:42 INFO  time: compiled sparkwordcount in 0.63s
+2023.07.16 20:11:57 INFO  Shutting down server
+2023.07.16 20:11:57 INFO  shutting down Metals
+2023.07.16 20:11:57 INFO  Shut down connection with build server.
+2023.07.16 20:11:57 INFO  Shut down connection with build server.
+2023.07.16 20:11:57 INFO  Shut down connection with build server.
+2023.07.16 20:11:57 INFO  Exiting server
